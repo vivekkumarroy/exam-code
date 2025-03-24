@@ -94,6 +94,9 @@
       transform: translateY(-5px);
       box-shadow: 0 10px 20px rgba(0,0,0,0.1);
     }
+    .bi-star-fill{
+      color: goldenrod;
+    }
 
     /* Media Queries for Orientation */
     /* Portrait Mode */
@@ -101,6 +104,11 @@
       header {
         background-color: white;
       }
+        .imgheader{
+       
+        max-width: 100%;
+        width: 60%; 
+       } 
 
       .content {
         display: flex;
@@ -143,17 +151,16 @@
 </head>
 <body>
   <!-- Header -->
-  <header class="d-flex justify-content-evenly">        
-    <h1 class="text-dark m-2">Eduport</h1> 
-             
-    <nav class="navbar navbar-expand-lg m-2">
+  <header class="">        
+    <nav class="navbar navbar-expand-lg m-2 d-flex justify-content-evenly">
       <div class="container-fluid">
+        <img src="public/images/Screenshot 2025-03-24 231348.png" alt="" width="20%" height="20%" class="imgheader">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item dropdown">
+        <div class="collapse navbar-collapse  flex-lg-row flex-column" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-lg-auto  mb-lg-0 ">
+            <li class="nav-item dropdown me-5">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 demos
               </a>
@@ -161,32 +168,40 @@
                 <li><a class="dropdown-item" href="#">Action</a></li>
                 <li><a class="dropdown-item" href="#">Another action</a></li>
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown me-5">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 pages
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Action</a></li>
                 <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
               </ul>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown me-5">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Account
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Action</a></li>
                 <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
               </ul>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown me-5">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Megamenu
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
                 <li><a class="dropdown-item" href="#">Another action</a></li>
               </ul>
             </li>
@@ -212,6 +227,7 @@
           <span class="bi bi-patch-check-fill"> Get membership</span>
         </p>
         <button class="btn btn-outline-danger">Get Started</button>
+        <button class="btn btn-outline-primary ms-lg-5">Watch video</button>
       </div>
       <div class="mt-4">
         <img src="public/images/lindkits.png" alt="" height="100%" width="70%">
@@ -235,7 +251,12 @@
           <div class="card-body">
             <h5 class="card-title">Sketch from A to Z: for app designer</h5>
             <p class="card-text">Proposal indulged no do sociable he throwing settling.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span>4.5/5</span>
           </div>
         </div>
         <div class="card">
@@ -243,7 +264,12 @@
           <div class="card-body">
             <h5 class="card-title">Graphic Design Masterclass</h5>
             <p class="card-text">Rooms oh fully taken by worse do Points afraid but may end</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span>4.5/5.0</span>
           </div>
         </div>
         <div class="card">
@@ -251,7 +277,12 @@
           <div class="card-body">
             <h5 class="card-title">Create a Design System in Figma</h5>
             <p class="card-text">Rooms oh fully taken by worse do. Points afraid but may end</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span>4.5/5.0</span>
           </div>
         </div>
         <div class="card">
@@ -259,7 +290,12 @@
           <div class="card-body">
             <h5 class="card-title">Deep Learning with React-Native</h5>
             <p class="card-text">Far advanced settling say finished raillery. Offered chiefly.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span>4.5/5.0</span>
           </div>
         </div>
       </div>
@@ -271,7 +307,12 @@
           <div class="card-body">
             <h5 class="card-title">Build Responsive Websites with HTML</h5>
             <p class="card-text">Far advanced settling say finished raillery. Offered chiefly</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span>4.5/5.0</span>
           </div>
         </div>
         <div class="card">
@@ -279,7 +320,12 @@
           <div class="card-body">
             <h5 class="card-title">Build Websites with CSS</h5>
             <p class="card-text">Far advanced settling say finished raillery. Offered chiefly.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span>4.5/5.0</span>
           </div>
         </div>
         <div class="card">
@@ -287,7 +333,12 @@
           <div class="card-body">
             <h5 class="card-title">Learn Invision</h5>
             <p class="card-text">Arrived off she elderly beloved him Course regard to up he hardly..</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span>4.5/5.0</span>
           </div>
         </div>
         <div class="card">
@@ -295,7 +346,12 @@
           <div class="card-body">
             <h5 class="card-title">JavaScript: Full Understanding</h5>
             <p class="card-text">Far advanced settling say finished raillery. Offered chiefly</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span>4.5/5.0</span>
           </div>
         </div>
       </div>
